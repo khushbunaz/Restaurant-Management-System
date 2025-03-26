@@ -1,18 +1,80 @@
-Developed a console-based application for efficiently managing restaurant orders, leveraging core Java concepts and data structures. The system includes the following key components:
-Restaurant Class: Manages order queues using an ArrayDeque, ensuring efficient order handling and processing.
-Main Class: Facilitates user interactions, processes orders, and handles file operations to maintain order records.
+# 🍽️ Restaurant Ordering System
 
-Key Responsibilities:
-Designed and implemented the overall system architecture, focusing on scalability and performance.
-Utilized ArrayDeque for optimal order queue management, ensuring quick addition and removal of orders.
-Developed robust user interaction modules to simulate real-world restaurant order management scenarios.
-Implemented file operations for persistent storage of order data, ensuring data consistency and reliability.
-Conducted thorough testing and debugging to ensure the application operates smoothly under various conditions.
+A Java-based console application for ordering different meal combos, calculating bills, and providing an interactive user experience.
 
-Technologies Used:
-Java
-Data Structures (ArrayDeque)
-File I/O Operations
+## 📌 Features
+✅ Menu-based ordering system  
+✅ Punjabi, Gujarati, Rajasthani, and Special combo options  
+✅ Automatic bill calculation with CGST, SGST, and delivery charges  
+✅ User-friendly interface with order confirmation  
+✅ Exit option to end the session  
 
-Outcome:
-Successfully created a functional and efficient console-based Restaurant Management System that improved the process of managing and processing restaurant orders, demonstrating strong problem-solving skills and proficiency in Java programming.
+---
+
+## 🛠️ Installation & Setup
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/restaurant-ordering-system.git
+   ```
+2. **Navigate to the directory:**
+   ```bash
+   cd restaurant-ordering-system
+   ```
+3. **Compile the Java program:**
+   ```bash
+   javac RestaurantOrderingSystem.java
+   ```
+4. **Run the application:**
+   ```bash
+   java RestaurantOrderingSystem
+   ```
+
+---
+
+## 📜 How to Use
+1. Run the program and select your meal combo.
+2. Enter the number of platters you want to order.
+3. Get the final bill with all applicable charges.
+4. Confirm your order and exit when done.
+
+---
+
+## 📝 Example Output
+```
+Welcome to THALA'S RESTAURANT 🍽️
+
+1. Punjabi Combos - Price: 350 + Delivery Charges
+2. Gujarati Combos - Price: 300 + Delivery Charges
+3. Rajasthani Combos - Price: 250 + Delivery Charges
+4. Our Special Combos - Price: 400 + Delivery Charges
+6. Exit
+
+Enter your choice of order: 1
+Enter number of platters: 2
+Your order for 2 Punjabi platters has been placed...
+
+Total Bill: 700
+CGST: 2.5%
+SGST: 2.5%
+Cutlery Charges: 10
+Delivery Partner Cost: 50
+Final Bill: 810
+
+Thank you for visiting! 🙌
+```
+
+
+---
+
+## 👨‍💻 Contributing
+Feel free to contribute by opening issues or submitting pull requests. Let's make this system even better! 🚀
+
+
+---
+
+### 💬 Contact
+If you have any questions, feel free to reach out at khushbudalal04@gmail.com or connect on https://www.linkedin.com/in/khushbunaz-dalal-73201b253/
+---
+
+Happy Ordering! 🍕🍔🥗
+
